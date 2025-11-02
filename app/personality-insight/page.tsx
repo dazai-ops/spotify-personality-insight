@@ -112,7 +112,7 @@ export default function PersonalityInsightPage() {
         <div className="flex flex-col items-center">
           <button
             onClick={generate}
-            className="mt-2 px-4 py-2 sm:px-6 sm:py-3 bg-white text-black rounded-full hover:bg-gray-800 transition"
+            className="mt-2 px-4 py-2 sm:px-6 sm:py-3 bg-white text-black rounded-full hover:bg-zinc-200 transition"
           >
             <span className="font-semibold">Generate Again</span>
           </button>
