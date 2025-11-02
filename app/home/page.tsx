@@ -205,7 +205,7 @@ export default function DashboardPage() {
                 <div className="flex flex-row-reverse sm:flex-row justify-between items-center gap-2">
                   <p className="font-serif text-xs sm:text-sm opacity-80">{track.album.artists[0].name}</p>
                   <Link target="_blank" href={track.album.external_urls.spotify}>
-                    <Image src="/spotify-white.png" width={20} height={20} alt="spotify"></Image>
+                    <Image src="/spotify-white-icon.png" width={20} height={20} alt="spotify"></Image>
                   </Link>
                 </div>
               </div>
